@@ -1,4 +1,17 @@
+connect the server on the browser ....
+Create a.sh 
 
+# vi a.sh 
+type "i" for insert mode
+<copy and paste the script > 
+then to exit 
+esc :wq 
+
+Change the permission of the file 
+# chmod +x a.sh 
+Excute the script 
+# ./a.sh
+----------------------------
 #!/bin/bash
 sudo useradd -m apadmin
 echo apadmin:redhat123# | sudo chpasswd
